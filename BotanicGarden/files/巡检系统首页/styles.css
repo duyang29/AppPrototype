@@ -1,0 +1,125 @@
+﻿body {
+  margin:0px;
+  background-image:none;
+  position:static;
+  left:auto;
+  width:1471px;
+  margin-left:0;
+  margin-right:0;
+  text-align:left;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u4696_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1471px;
+  height:796px;
+}
+#u4696 {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1471px;
+  height:796px;
+}
+#u4696_text {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:0px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u4697_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:86px;
+  height:29px;
+  background:inherit;
+  background-color:rgba(23, 29, 55, 1);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:'PingFangSC-Regular', 'PingFang SC';
+  font-weight:400;
+  font-style:normal;
+  font-size:15px;
+  color:#707899;
+  text-align:left;
+}
+#u4697 {
+  border-width:0px;
+  position:absolute;
+  left:56px;
+  top:185px;
+  width:86px;
+  height:29px;
+  font-family:'PingFangSC-Regular', 'PingFang SC';
+  font-weight:400;
+  font-style:normal;
+  font-size:15px;
+  color:#707899;
+  text-align:left;
+}
+#u4697_text {
+  border-width:0px;
+  position:absolute;
+  left:2px;
+  top:4px;
+  width:82px;
+  word-wrap:break-word;
+}
+#u4698_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:86px;
+  height:29px;
+  background:inherit;
+  background-color:rgba(23, 29, 55, 1);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:'PingFangSC-Regular', 'PingFang SC';
+  font-weight:400;
+  font-style:normal;
+  font-size:15px;
+  color:#707899;
+  text-align:left;
+}
+#u4698 {
+  border-width:0px;
+  position:absolute;
+  left:56px;
+  top:238px;
+  width:86px;
+  height:29px;
+  font-family:'PingFangSC-Regular', 'PingFang SC';
+  font-weight:400;
+  font-style:normal;
+  font-size:15px;
+  color:#707899;
+  text-align:left;
+}
+#u4698_text {
+  border-width:0px;
+  position:absolute;
+  left:2px;
+  top:4px;
+  width:82px;
+  word-wrap:break-word;
+}
