@@ -78,6 +78,9 @@
 .paragraph {
   text-align:left;
 }
+.text_link {
+  color:#0000FF;
+}
 .list_box {
   color:#000000;
   text-align:left;
@@ -159,6 +162,9 @@
   font-size:14px;
   text-align:left;
 }
+.text_link1 {
+  color:#0000FF;
+}
 .horizontal_line {
 }
 .box_11 {
@@ -214,4 +220,11 @@
   color:#333333;
   text-align:left;
   line-height:normal;
+}
+.text_link_mouse_over {
+}
+.text_link_mouse_down {
+}
+.html_button {
+  text-align:center;
 }
