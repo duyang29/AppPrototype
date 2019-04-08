@@ -5205,7 +5205,7 @@
   -moz-box-shadow:0px 0px 4px rgba(153, 153, 153, 0.349019607843137);
   -webkit-box-shadow:0px 0px 4px rgba(153, 153, 153, 0.349019607843137);
   box-shadow:0px 0px 4px rgba(153, 153, 153, 0.349019607843137);
-  font-family:'Microsoft YaHei';
+  font-family:'MicrosoftYaHei', 'Microsoft YaHei';
   font-weight:400;
   font-style:normal;
   font-size:14px;
@@ -5220,7 +5220,7 @@
   top:95px;
   width:291px;
   height:433px;
-  font-family:'Microsoft YaHei';
+  font-family:'MicrosoftYaHei', 'Microsoft YaHei';
   font-weight:400;
   font-style:normal;
   font-size:14px;
@@ -17007,7 +17007,7 @@
   -moz-box-shadow:0px 0px 4px rgba(153, 153, 153, 0.349019607843137);
   -webkit-box-shadow:0px 0px 4px rgba(153, 153, 153, 0.349019607843137);
   box-shadow:0px 0px 4px rgba(153, 153, 153, 0.349019607843137);
-  font-family:'Microsoft YaHei';
+  font-family:'MicrosoftYaHei', 'Microsoft YaHei';
   font-weight:400;
   font-style:normal;
 }
@@ -17018,7 +17018,7 @@
   top:12px;
   width:415px;
   height:235px;
-  font-family:'Microsoft YaHei';
+  font-family:'MicrosoftYaHei', 'Microsoft YaHei';
   font-weight:400;
   font-style:normal;
 }
@@ -17120,8 +17120,8 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Microsoft YaHei';
-  font-weight:200;
+  font-family:'MicrosoftYaHei', 'Microsoft YaHei';
+  font-weight:400;
   font-style:normal;
   font-size:14px;
 }
@@ -17132,8 +17132,8 @@
   top:192px;
   width:68px;
   height:32px;
-  font-family:'Microsoft YaHei';
-  font-weight:200;
+  font-family:'MicrosoftYaHei', 'Microsoft YaHei';
+  font-weight:400;
   font-style:normal;
   font-size:14px;
 }
@@ -17446,7 +17446,7 @@
   -moz-box-shadow:0px 0px 4px rgba(153, 153, 153, 0.349019607843137);
   -webkit-box-shadow:0px 0px 4px rgba(153, 153, 153, 0.349019607843137);
   box-shadow:0px 0px 4px rgba(153, 153, 153, 0.349019607843137);
-  font-family:'Microsoft YaHei';
+  font-family:'MicrosoftYaHei', 'Microsoft YaHei';
   font-weight:400;
   font-style:normal;
 }
@@ -17457,7 +17457,7 @@
   top:0px;
   width:420px;
   height:215px;
-  font-family:'Microsoft YaHei';
+  font-family:'MicrosoftYaHei', 'Microsoft YaHei';
   font-weight:400;
   font-style:normal;
 }
@@ -17559,8 +17559,8 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Microsoft YaHei';
-  font-weight:200;
+  font-family:'MicrosoftYaHei', 'Microsoft YaHei';
+  font-weight:400;
   font-style:normal;
   font-size:14px;
 }
@@ -17571,8 +17571,8 @@
   top:159px;
   width:68px;
   height:32px;
-  font-family:'Microsoft YaHei';
-  font-weight:200;
+  font-family:'MicrosoftYaHei', 'Microsoft YaHei';
+  font-weight:400;
   font-style:normal;
   font-size:14px;
 }
@@ -17851,7 +17851,7 @@
   -moz-box-shadow:0px 0px 4px rgba(153, 153, 153, 0.349019607843137);
   -webkit-box-shadow:0px 0px 4px rgba(153, 153, 153, 0.349019607843137);
   box-shadow:0px 0px 4px rgba(153, 153, 153, 0.349019607843137);
-  font-family:'Microsoft YaHei';
+  font-family:'MicrosoftYaHei', 'Microsoft YaHei';
   font-weight:400;
   font-style:normal;
 }
@@ -17862,7 +17862,7 @@
   top:0px;
   width:420px;
   height:215px;
-  font-family:'Microsoft YaHei';
+  font-family:'MicrosoftYaHei', 'Microsoft YaHei';
   font-weight:400;
   font-style:normal;
 }
@@ -17964,8 +17964,8 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Microsoft YaHei';
-  font-weight:200;
+  font-family:'MicrosoftYaHei', 'Microsoft YaHei';
+  font-weight:400;
   font-style:normal;
   font-size:14px;
 }
@@ -17976,8 +17976,8 @@
   top:159px;
   width:68px;
   height:32px;
-  font-family:'Microsoft YaHei';
-  font-weight:200;
+  font-family:'MicrosoftYaHei', 'Microsoft YaHei';
+  font-weight:400;
   font-style:normal;
   font-size:14px;
 }
@@ -18248,7 +18248,7 @@
   -moz-box-shadow:0px 0px 4px rgba(153, 153, 153, 0.349019607843137);
   -webkit-box-shadow:0px 0px 4px rgba(153, 153, 153, 0.349019607843137);
   box-shadow:0px 0px 4px rgba(153, 153, 153, 0.349019607843137);
-  font-family:'Microsoft YaHei';
+  font-family:'MicrosoftYaHei', 'Microsoft YaHei';
   font-weight:400;
   font-style:normal;
 }
@@ -18259,7 +18259,7 @@
   top:0px;
   width:390px;
   height:166px;
-  font-family:'Microsoft YaHei';
+  font-family:'MicrosoftYaHei', 'Microsoft YaHei';
   font-weight:400;
   font-style:normal;
 }
@@ -18330,7 +18330,7 @@
   top:113px;
   width:66px;
   height:32px;
-  font-family:'Microsoft YaHei';
+  font-family:'MicrosoftYaHei', 'Microsoft YaHei';
   font-weight:400;
   font-style:normal;
   font-size:14px;
@@ -18527,7 +18527,7 @@
   -moz-box-shadow:0px 0px 4px rgba(153, 153, 153, 0.349019607843137);
   -webkit-box-shadow:0px 0px 4px rgba(153, 153, 153, 0.349019607843137);
   box-shadow:0px 0px 4px rgba(153, 153, 153, 0.349019607843137);
-  font-family:'Microsoft YaHei';
+  font-family:'MicrosoftYaHei', 'Microsoft YaHei';
   font-weight:400;
   font-style:normal;
 }
@@ -18538,7 +18538,7 @@
   top:12px;
   width:415px;
   height:235px;
-  font-family:'Microsoft YaHei';
+  font-family:'MicrosoftYaHei', 'Microsoft YaHei';
   font-weight:400;
   font-style:normal;
 }
@@ -18640,8 +18640,8 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Microsoft YaHei';
-  font-weight:200;
+  font-family:'MicrosoftYaHei', 'Microsoft YaHei';
+  font-weight:400;
   font-style:normal;
   font-size:14px;
 }
@@ -18652,8 +18652,8 @@
   top:192px;
   width:68px;
   height:32px;
-  font-family:'Microsoft YaHei';
-  font-weight:200;
+  font-family:'MicrosoftYaHei', 'Microsoft YaHei';
+  font-weight:400;
   font-style:normal;
   font-size:14px;
 }
