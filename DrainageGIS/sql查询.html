@@ -1,0 +1,1841 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>SQL查询</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/sql查询/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/sql查询/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Image) -->
+      <div id="u987" class="ax_default image">
+        <img id="u987_img" class="img " src="images/地图浏览/u287.png"/>
+        <div id="u987_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u988" class="ax_default box_1">
+        <img id="u988_img" class="img " src="images/框选查询/u563.svg"/>
+        <div id="u988_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u989" class="ax_default label">
+        <div id="u989_div" class=""></div>
+        <div id="u989_text" class="text ">
+          <p><span style="text-decoration:none;">查询内容:</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Droplist) -->
+      <div id="u990" class="ax_default droplist">
+        <div id="u990_div" class=""></div>
+        <select id="u990_input" class="u990_input">
+          <option class="u990_input_option" selected value="SQL查询">SQL查询</option>
+          <option class="u990_input_option" value="街道范围查询">街道范围查询</option>
+          <option class="u990_input_option" value="水质净化厂服务范围查询">水质净化厂服务范围查询</option>
+          <option class="u990_input_option" value="一级排水分区查询">一级排水分区查询</option>
+          <option class="u990_input_option" value="二级排水分区查询">二级排水分区查询</option>
+          <option class="u990_input_option" value="三级排水分区查询">三级排水分区查询</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u991" class="ax_default label">
+        <div id="u991_div" class=""></div>
+        <div id="u991_text" class="text ">
+          <p><span style="text-decoration:none;">已选图层:</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Dynamic Panel) -->
+      <div id="u992" class="ax_default">
+        <div id="u992_state0" class="panel_state" data-label="State1" style="">
+          <div id="u992_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (Group) -->
+            <div id="u993" class="ax_default" data-left="0" data-top="0" data-width="300" data-height="641">
+
+              <!-- Unnamed (Group) -->
+              <div id="u994" class="ax_default" data-left="0" data-top="0" data-width="300" data-height="641">
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u995" class="ax_default box_1">
+                  <img id="u995_img" class="img " src="images/点选查询/u482.svg"/>
+                  <div id="u995_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u996" class="ax_default label">
+                  <div id="u996_div" class=""></div>
+                  <div id="u996_text" class="text ">
+                    <p><span style="text-decoration:none;">管点</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u997" class="ax_default label">
+                  <div id="u997_div" class=""></div>
+                  <div id="u997_text" class="text ">
+                    <p><span style="text-decoration:none;">管线</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u998" class="ax_default box_1">
+                  <div id="u998_div" class=""></div>
+                  <div id="u998_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Drop) -->
+                <div id="u999" class="ax_default marker">
+                  <img id="u999_img" class="img " src="images/框选查询/u582.svg"/>
+                  <div id="u999_text" class="text ">
+                    <p><span style="text-decoration:none;">2</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1000" class="ax_default box_1">
+                  <div id="u1000_div" class=""></div>
+                  <div id="u1000_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Drop) -->
+                <div id="u1001" class="ax_default marker">
+                  <img id="u1001_img" class="img " src="images/框选查询/u582.svg"/>
+                  <div id="u1001_text" class="text ">
+                    <p><span style="text-decoration:none;">3</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1002" class="ax_default box_1">
+                  <div id="u1002_div" class=""></div>
+                  <div id="u1002_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1003" class="ax_default box_1">
+                  <div id="u1003_div" class=""></div>
+                  <div id="u1003_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Dynamic Panel) -->
+                <div id="u1004" class="ax_default">
+                  <div id="u1004_state0" class="panel_state" data-label="State1" style="">
+                    <div id="u1004_state0_content" class="panel_state_content">
+
+                      <!-- Unnamed (Rectangle) -->
+                      <div id="u1005" class="ax_default box_1">
+                        <div id="u1005_div" class=""></div>
+                        <div id="u1005_text" class="text " style="display:none; visibility: hidden">
+                          <p></p>
+                        </div>
+                      </div>
+
+                      <!-- Unnamed (Drop) -->
+                      <div id="u1006" class="ax_default marker">
+                        <img id="u1006_img" class="img " src="images/框选查询/u616.svg"/>
+                        <div id="u1006_text" class="text ">
+                          <p><span style="text-decoration:none;">1</span></p>
+                        </div>
+                      </div>
+
+                      <!-- Unnamed (Rectangle) -->
+                      <div id="u1007" class="ax_default label">
+                        <div id="u1007_div" class=""></div>
+                        <div id="u1007_text" class="text ">
+                          <p><span style="text-decoration:none;">管线类型:</span></p>
+                        </div>
+                      </div>
+
+                      <!-- Unnamed (Rectangle) -->
+                      <div id="u1008" class="ax_default label">
+                        <div id="u1008_div" class=""></div>
+                        <div id="u1008_text" class="text ">
+                          <p><span style="text-decoration:none;">管径:</span></p>
+                        </div>
+                      </div>
+
+                      <!-- Unnamed (Rectangle) -->
+                      <div id="u1009" class="ax_default label">
+                        <div id="u1009_div" class=""></div>
+                        <div id="u1009_text" class="text ">
+                          <p><span style="text-decoration:none;">所属区域:</span></p>
+                        </div>
+                      </div>
+
+                      <!-- Unnamed (Rectangle) -->
+                      <div id="u1010" class="ax_default label">
+                        <div id="u1010_div" class=""></div>
+                        <div id="u1010_text" class="text ">
+                          <p><span style="text-decoration:none;">所属区域:</span></p>
+                        </div>
+                      </div>
+
+                      <!-- Unnamed (Rectangle) -->
+                      <div id="u1011" class="ax_default label">
+                        <div id="u1011_div" class=""></div>
+                        <div id="u1011_text" class="text ">
+                          <p><span style="text-decoration:none;">管线编号:</span></p>
+                        </div>
+                      </div>
+
+                      <!-- Unnamed (Rectangle) -->
+                      <div id="u1012" class="ax_default label">
+                        <div id="u1012_div" class=""></div>
+                        <div id="u1012_text" class="text ">
+                          <p><span style="text-decoration:none;">污水支管</span></p>
+                        </div>
+                      </div>
+
+                      <!-- Unnamed (Rectangle) -->
+                      <div id="u1013" class="ax_default label">
+                        <div id="u1013_div" class=""></div>
+                        <div id="u1013_text" class="text ">
+                          <p><span style="text-decoration:none;">DN300</span></p>
+                        </div>
+                      </div>
+
+                      <!-- Unnamed (Rectangle) -->
+                      <div id="u1014" class="ax_default label">
+                        <div id="u1014_div" class=""></div>
+                        <div id="u1014_text" class="text ">
+                          <p><span style="text-decoration:none;">HDPE</span></p>
+                        </div>
+                      </div>
+
+                      <!-- Unnamed (Rectangle) -->
+                      <div id="u1015" class="ax_default label">
+                        <div id="u1015_div" class=""></div>
+                        <div id="u1015_text" class="text ">
+                          <p><span style="text-decoration:none;">龙华区</span></p>
+                        </div>
+                      </div>
+
+                      <!-- Unnamed (Rectangle) -->
+                      <div id="u1016" class="ax_default label">
+                        <div id="u1016_div" class=""></div>
+                        <div id="u1016_text" class="text ">
+                          <p><span style="text-decoration:none;">JCJ20190918123123123</span></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1017" class="ax_default label">
+                  <div id="u1017_div" class=""></div>
+                  <div id="u1017_text" class="text ">
+                    <p><span style="text-decoration:none;">管线类型:</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1018" class="ax_default label">
+                  <div id="u1018_div" class=""></div>
+                  <div id="u1018_text" class="text ">
+                    <p><span style="text-decoration:none;">管径:</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1019" class="ax_default label">
+                  <div id="u1019_div" class=""></div>
+                  <div id="u1019_text" class="text ">
+                    <p><span style="text-decoration:none;">所属区域:</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1020" class="ax_default label">
+                  <div id="u1020_div" class=""></div>
+                  <div id="u1020_text" class="text ">
+                    <p><span style="text-decoration:none;">所属区域:</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1021" class="ax_default label">
+                  <div id="u1021_div" class=""></div>
+                  <div id="u1021_text" class="text ">
+                    <p><span style="text-decoration:none;">管线编号:</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1022" class="ax_default label">
+                  <div id="u1022_div" class=""></div>
+                  <div id="u1022_text" class="text ">
+                    <p><span style="text-decoration:none;">雨水支管</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1023" class="ax_default label">
+                  <div id="u1023_div" class=""></div>
+                  <div id="u1023_text" class="text ">
+                    <p><span style="text-decoration:none;">DN800</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1024" class="ax_default label">
+                  <div id="u1024_div" class=""></div>
+                  <div id="u1024_text" class="text ">
+                    <p><span style="text-decoration:none;">HDPE</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1025" class="ax_default label">
+                  <div id="u1025_div" class=""></div>
+                  <div id="u1025_text" class="text ">
+                    <p><span style="text-decoration:none;">龙华区</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1026" class="ax_default label">
+                  <div id="u1026_div" class=""></div>
+                  <div id="u1026_text" class="text ">
+                    <p><span style="text-decoration:none;">JCJ20190918123123123</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1027" class="ax_default label">
+                  <div id="u1027_div" class=""></div>
+                  <div id="u1027_text" class="text ">
+                    <p><span style="text-decoration:none;">管线类型:</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1028" class="ax_default label">
+                  <div id="u1028_div" class=""></div>
+                  <div id="u1028_text" class="text ">
+                    <p><span style="text-decoration:none;">管径:</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1029" class="ax_default label">
+                  <div id="u1029_div" class=""></div>
+                  <div id="u1029_text" class="text ">
+                    <p><span style="text-decoration:none;">所属区域:</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1030" class="ax_default label">
+                  <div id="u1030_div" class=""></div>
+                  <div id="u1030_text" class="text ">
+                    <p><span style="text-decoration:none;">所属区域:</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1031" class="ax_default label">
+                  <div id="u1031_div" class=""></div>
+                  <div id="u1031_text" class="text ">
+                    <p><span style="text-decoration:none;">管线编号:</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1032" class="ax_default label">
+                  <div id="u1032_div" class=""></div>
+                  <div id="u1032_text" class="text ">
+                    <p><span style="text-decoration:none;">合流主管</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1033" class="ax_default label">
+                  <div id="u1033_div" class=""></div>
+                  <div id="u1033_text" class="text ">
+                    <p><span style="text-decoration:none;">DN1800</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1034" class="ax_default label">
+                  <div id="u1034_div" class=""></div>
+                  <div id="u1034_text" class="text ">
+                    <p><span style="text-decoration:none;">HDPE</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1035" class="ax_default label">
+                  <div id="u1035_div" class=""></div>
+                  <div id="u1035_text" class="text ">
+                    <p><span style="text-decoration:none;">龙华区</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1036" class="ax_default label">
+                  <div id="u1036_div" class=""></div>
+                  <div id="u1036_text" class="text ">
+                    <p><span style="text-decoration:none;">JCJ20190918123123123</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1037" class="ax_default label">
+                  <div id="u1037_div" class=""></div>
+                  <div id="u1037_text" class="text ">
+                    <p><span style="text-decoration:none;">管线类型:</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1038" class="ax_default label">
+                  <div id="u1038_div" class=""></div>
+                  <div id="u1038_text" class="text ">
+                    <p><span style="text-decoration:none;">管径:</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1039" class="ax_default label">
+                  <div id="u1039_div" class=""></div>
+                  <div id="u1039_text" class="text ">
+                    <p><span style="text-decoration:none;">所属区域:</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1040" class="ax_default label">
+                  <div id="u1040_div" class=""></div>
+                  <div id="u1040_text" class="text ">
+                    <p><span style="text-decoration:none;">污水支管</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1041" class="ax_default label">
+                  <div id="u1041_div" class=""></div>
+                  <div id="u1041_text" class="text ">
+                    <p><span style="text-decoration:none;">DN400</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1042" class="ax_default label">
+                  <div id="u1042_div" class=""></div>
+                  <div id="u1042_text" class="text ">
+                    <p><span style="text-decoration:none;">HDPE</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Unnamed (Drop) -->
+              <div id="u1043" class="ax_default marker">
+                <img id="u1043_img" class="img " src="images/框选查询/u612.svg"/>
+                <div id="u1043_text" class="text ">
+                  <p><span style="text-decoration:none;">4</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 详情 (Dynamic Panel) -->
+      <div id="u1044" class="ax_default ax_default_hidden" data-label="详情" style="display:none; visibility: hidden">
+        <div id="u1044_state0" class="panel_state" data-label="State1" style="">
+          <div id="u1044_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1045" class="ax_default box_1">
+              <img id="u1045_img" class="img " src="images/框选查询/u628.svg"/>
+              <div id="u1045_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1046" class="ax_default label">
+              <div id="u1046_div" class=""></div>
+              <div id="u1046_text" class="text ">
+                <p><span style="text-decoration:none;">管道种类</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1047" class="ax_default label">
+              <div id="u1047_div" class=""></div>
+              <div id="u1047_text" class="text ">
+                <p><span style="text-decoration:none;">污水管</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Line) -->
+            <div id="u1048" class="ax_default line">
+              <img id="u1048_img" class="img " src="images/点选查询/u373.svg"/>
+              <div id="u1048_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1049" class="ax_default box_1">
+              <img id="u1049_img" class="img " src="images/点选查询/u482.svg"/>
+              <div id="u1049_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1050" class="ax_default label">
+              <div id="u1050_div" class=""></div>
+              <div id="u1050_text" class="text ">
+                <p><span style="text-decoration:none;">属性</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1051" class="ax_default label">
+              <div id="u1051_div" class=""></div>
+              <div id="u1051_text" class="text ">
+                <p><span style="text-decoration:none;">属性值</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1052" class="ax_default label">
+              <div id="u1052_div" class=""></div>
+              <div id="u1052_text" class="text ">
+                <p><span style="text-decoration:none;">唯一编号</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1053" class="ax_default label">
+              <div id="u1053_div" class=""></div>
+              <div id="u1053_text" class="text ">
+                <p><span style="text-decoration:none;">WSG201909138123123123</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Line) -->
+            <div id="u1054" class="ax_default line">
+              <img id="u1054_img" class="img " src="images/点选查询/u373.svg"/>
+              <div id="u1054_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1055" class="ax_default label">
+              <div id="u1055_div" class=""></div>
+              <div id="u1055_text" class="text ">
+                <p><span style="text-decoration:none;">排水管类别</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1056" class="ax_default label">
+              <div id="u1056_div" class=""></div>
+              <div id="u1056_text" class="text ">
+                <p><span style="text-decoration:none;">污水支管</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Line) -->
+            <div id="u1057" class="ax_default line">
+              <img id="u1057_img" class="img " src="images/点选查询/u373.svg"/>
+              <div id="u1057_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1058" class="ax_default label">
+              <div id="u1058_div" class=""></div>
+              <div id="u1058_text" class="text ">
+                <p><span style="text-decoration:none;">X 坐标</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1059" class="ax_default label">
+              <div id="u1059_div" class=""></div>
+              <div id="u1059_text" class="text ">
+                <p><span style="text-decoration:none;">41321..345</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Line) -->
+            <div id="u1060" class="ax_default line">
+              <img id="u1060_img" class="img " src="images/点选查询/u373.svg"/>
+              <div id="u1060_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1061" class="ax_default label">
+              <div id="u1061_div" class=""></div>
+              <div id="u1061_text" class="text ">
+                <p><span style="text-decoration:none;">Y 坐标</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1062" class="ax_default label">
+              <div id="u1062_div" class=""></div>
+              <div id="u1062_text" class="text ">
+                <p><span style="text-decoration:none;">119236.123</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Line) -->
+            <div id="u1063" class="ax_default line">
+              <img id="u1063_img" class="img " src="images/点选查询/u373.svg"/>
+              <div id="u1063_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1064" class="ax_default label">
+              <div id="u1064_div" class=""></div>
+              <div id="u1064_text" class="text ">
+                <p><span style="text-decoration:none;">管径</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1065" class="ax_default label">
+              <div id="u1065_div" class=""></div>
+              <div id="u1065_text" class="text ">
+                <p><span style="text-decoration:none;">DN300</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Line) -->
+            <div id="u1066" class="ax_default line">
+              <img id="u1066_img" class="img " src="images/点选查询/u373.svg"/>
+              <div id="u1066_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1067" class="ax_default label">
+              <div id="u1067_div" class=""></div>
+              <div id="u1067_text" class="text ">
+                <p><span style="text-decoration:none;">管线埋深</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1068" class="ax_default label">
+              <div id="u1068_div" class=""></div>
+              <div id="u1068_text" class="text ">
+                <p><span style="text-decoration:none;">2.75</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Line) -->
+            <div id="u1069" class="ax_default line">
+              <img id="u1069_img" class="img " src="images/点选查询/u373.svg"/>
+              <div id="u1069_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1070" class="ax_default label">
+              <div id="u1070_div" class=""></div>
+              <div id="u1070_text" class="text ">
+                <p><span style="text-decoration:none;">管内底标高</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1071" class="ax_default label">
+              <div id="u1071_div" class=""></div>
+              <div id="u1071_text" class="text ">
+                <p><span style="text-decoration:none;">1.30</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Line) -->
+            <div id="u1072" class="ax_default line">
+              <img id="u1072_img" class="img " src="images/点选查询/u373.svg"/>
+              <div id="u1072_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1073" class="ax_default label">
+              <div id="u1073_div" class=""></div>
+              <div id="u1073_text" class="text ">
+                <p><span style="text-decoration:none;">井尺寸</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1074" class="ax_default label">
+              <div id="u1074_div" class=""></div>
+              <div id="u1074_text" class="text ">
+                <p><span style="text-decoration:none;">1000</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Line) -->
+            <div id="u1075" class="ax_default line">
+              <img id="u1075_img" class="img " src="images/点选查询/u373.svg"/>
+              <div id="u1075_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1076" class="ax_default label">
+              <div id="u1076_div" class=""></div>
+              <div id="u1076_text" class="text ">
+                <p><span style="text-decoration:none;">井口尺寸</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1077" class="ax_default label">
+              <div id="u1077_div" class=""></div>
+              <div id="u1077_text" class="text ">
+                <p><span style="text-decoration:none;">700</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Line) -->
+            <div id="u1078" class="ax_default line">
+              <img id="u1078_img" class="img " src="images/点选查询/u373.svg"/>
+              <div id="u1078_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1079" class="ax_default label">
+              <div id="u1079_div" class=""></div>
+              <div id="u1079_text" class="text ">
+                <p><span style="text-decoration:none;">材质</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1080" class="ax_default label">
+              <div id="u1080_div" class=""></div>
+              <div id="u1080_text" class="text ">
+                <p><span style="text-decoration:none;">HDPE</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Line) -->
+            <div id="u1081" class="ax_default line">
+              <img id="u1081_img" class="img " src="images/点选查询/u373.svg"/>
+              <div id="u1081_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1082" class="ax_default label">
+              <div id="u1082_div" class=""></div>
+              <div id="u1082_text" class="text ">
+                <p><span style="text-decoration:none;">材质使用寿命</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1083" class="ax_default label">
+              <div id="u1083_div" class=""></div>
+              <div id="u1083_text" class="text ">
+                <p><span style="text-decoration:none;">50</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Line) -->
+            <div id="u1084" class="ax_default line">
+              <img id="u1084_img" class="img " src="images/点选查询/u373.svg"/>
+              <div id="u1084_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1085" class="ax_default label">
+              <div id="u1085_div" class=""></div>
+              <div id="u1085_text" class="text ">
+                <p><span style="text-decoration:none;">设计单位</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1086" class="ax_default label">
+              <div id="u1086_div" class=""></div>
+              <div id="u1086_text" class="text ">
+                <p><span style="text-decoration:none;">--</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Line) -->
+            <div id="u1087" class="ax_default line">
+              <img id="u1087_img" class="img " src="images/点选查询/u373.svg"/>
+              <div id="u1087_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1088" class="ax_default label">
+              <div id="u1088_div" class=""></div>
+              <div id="u1088_text" class="text ">
+                <p><span style="text-decoration:none;">施工单位</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1089" class="ax_default label">
+              <div id="u1089_div" class=""></div>
+              <div id="u1089_text" class="text ">
+                <p><span style="text-decoration:none;">--</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Line) -->
+            <div id="u1090" class="ax_default line">
+              <img id="u1090_img" class="img " src="images/点选查询/u373.svg"/>
+              <div id="u1090_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1091" class="ax_default label">
+              <div id="u1091_div" class=""></div>
+              <div id="u1091_text" class="text ">
+                <p><span style="text-decoration:none;">权属单位</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1092" class="ax_default label">
+              <div id="u1092_div" class=""></div>
+              <div id="u1092_text" class="text ">
+                <p><span style="text-decoration:none;">--</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Line) -->
+            <div id="u1093" class="ax_default line">
+              <img id="u1093_img" class="img " src="images/点选查询/u373.svg"/>
+              <div id="u1093_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1094" class="ax_default label">
+              <div id="u1094_div" class=""></div>
+              <div id="u1094_text" class="text ">
+                <p><span style="text-decoration:none;">运营单位</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1095" class="ax_default label">
+              <div id="u1095_div" class=""></div>
+              <div id="u1095_text" class="text ">
+                <p><span style="text-decoration:none;">--</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Line) -->
+            <div id="u1096" class="ax_default line">
+              <img id="u1096_img" class="img " src="images/点选查询/u373.svg"/>
+              <div id="u1096_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1097" class="ax_default label">
+              <div id="u1097_div" class=""></div>
+              <div id="u1097_text" class="text ">
+                <p><span style="text-decoration:none;">区域</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1098" class="ax_default label">
+              <div id="u1098_div" class=""></div>
+              <div id="u1098_text" class="text ">
+                <p><span style="text-decoration:none;">龙华区</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Line) -->
+            <div id="u1099" class="ax_default line">
+              <img id="u1099_img" class="img " src="images/点选查询/u373.svg"/>
+              <div id="u1099_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1100" class="ax_default label">
+              <div id="u1100_div" class=""></div>
+              <div id="u1100_text" class="text ">
+                <p><span style="text-decoration:none;">管线段地址</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1101" class="ax_default label">
+              <div id="u1101_div" class=""></div>
+              <div id="u1101_text" class="text ">
+                <p><span style="text-decoration:none;">龙华街道黄河路</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Line) -->
+            <div id="u1102" class="ax_default line">
+              <img id="u1102_img" class="img " src="images/点选查询/u373.svg"/>
+              <div id="u1102_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1103" class="ax_default label">
+              <div id="u1103_div" class=""></div>
+              <div id="u1103_text" class="text ">
+                <p><span style="text-decoration:none;">管线编号</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1104" class="ax_default label">
+              <div id="u1104_div" class=""></div>
+              <div id="u1104_text" class="text ">
+                <p><span style="text-decoration:none;">WSG20190918123123123</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1105" class="ax_default heading_2">
+              <div id="u1105_div" class=""></div>
+              <div id="u1105_text" class="text ">
+                <p><span style="text-decoration:none;">X</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1106" class="ax_default box_1">
+              <div id="u1106_div" class=""></div>
+              <div id="u1106_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1107" class="ax_default label">
+        <div id="u1107_div" class=""></div>
+        <div id="u1107_text" class="text ">
+          <p><span style="text-decoration:none;">查询范围:</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1108" class="ax_default box_1">
+        <div id="u1108_div" class=""></div>
+        <div id="u1108_text" class="text ">
+          <p><span style="text-decoration:none;">全图</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1109" class="ax_default box_1">
+        <div id="u1109_div" class=""></div>
+        <div id="u1109_text" class="text ">
+          <p><span style="text-decoration:none;">区查询</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Drop) -->
+      <div id="u1110" class="ax_default marker">
+        <img id="u1110_img" class="img " src="images/框选查询/u582.svg"/>
+        <div id="u1110_text" class="text ">
+          <p><span style="text-decoration:none;">3</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Drop) -->
+      <div id="u1111" class="ax_default marker">
+        <img id="u1111_img" class="img " src="images/框选查询/u582.svg"/>
+        <div id="u1111_text" class="text ">
+          <p><span style="text-decoration:none;">4</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Drop) -->
+      <div id="u1112" class="ax_default marker">
+        <img id="u1112_img" class="img " src="images/框选查询/u616.svg"/>
+        <div id="u1112_text" class="text ">
+          <p><span style="text-decoration:none;">1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Drop) -->
+      <div id="u1113" class="ax_default marker">
+        <img id="u1113_img" class="img " src="images/框选查询/u582.svg"/>
+        <div id="u1113_text" class="text ">
+          <p><span style="text-decoration:none;">2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Droplist) -->
+      <div id="u1114" class="ax_default droplist">
+        <div id="u1114_div" class=""></div>
+        <select id="u1114_input" class="u1114_input">
+          <option class="u1114_input_option" value="混排管道">混排管道</option>
+          <option class="u1114_input_option" value="合流管渠">合流管渠</option>
+          <option class="u1114_input_option" value="其他图层内容">其他图层内容</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1115" class="ax_default label">
+        <div id="u1115_div" class=""></div>
+        <div id="u1115_text" class="text ">
+          <p><span style="text-decoration:none;">查询语句:</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1116" class="ax_default box_1">
+        <img id="u1116_img" class="img " src="images/sql查询/u1116.svg"/>
+        <div id="u1116_text" class="text ">
+          <p><span style="text-decoration:none;">区域=&quot;龙华&quot;</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1117" class="ax_default box_1">
+        <div id="u1117_div" class=""></div>
+        <div id="u1117_text" class="text ">
+          <p><span style="text-decoration:none;">矩形</span></p>
+        </div>
+      </div>
+
+      <!-- 查询语句 (Dynamic Panel) -->
+      <div id="u1118" class="ax_default ax_default_hidden" data-label="查询语句" style="display:none; visibility: hidden">
+        <div id="u1118_state0" class="panel_state" data-label="State1" style="">
+          <div id="u1118_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1119" class="ax_default box_1">
+              <img id="u1119_img" class="img " src="images/sql查询/u1119.svg"/>
+              <div id="u1119_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1120" class="ax_default label">
+              <div id="u1120_div" class=""></div>
+              <div id="u1120_text" class="text ">
+                <p><span style="text-decoration:none;">查询语句编辑</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1121" class="ax_default heading_2">
+              <div id="u1121_div" class=""></div>
+              <div id="u1121_text" class="text ">
+                <p><span style="text-decoration:none;">X</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (List Box) -->
+            <div id="u1122" class="ax_default list_box">
+              <div id="u1122_div" class=""></div>
+              <select id="u1122_input" size="2" class="u1122_input">
+                <option class="u1122_input_option" value="区域">区域</option>
+                <option class="u1122_input_option" value="唯一编号">唯一编号</option>
+                <option class="u1122_input_option" value="一级排水分区">一级排水分区</option>
+                <option class="u1122_input_option" value="二级排水分区">二级排水分区</option>
+                <option class="u1122_input_option" value="三级排水分区">三级排水分区</option>
+                <option class="u1122_input_option" value="污水厂范围">污水厂范围</option>
+                <option class="u1122_input_option" value="等等其他项">等等其他项</option>
+              </select>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1123" class="ax_default box_1">
+              <div id="u1123_div" class=""></div>
+              <div id="u1123_text" class="text ">
+                <p><span style="text-decoration:none;">=</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1124" class="ax_default box_1">
+              <div id="u1124_div" class=""></div>
+              <div id="u1124_text" class="text ">
+                <p><span style="text-decoration:none;">!=</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1125" class="ax_default box_1">
+              <div id="u1125_div" class=""></div>
+              <div id="u1125_text" class="text ">
+                <p><span style="text-decoration:none;">&gt;</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1126" class="ax_default box_1">
+              <div id="u1126_div" class=""></div>
+              <div id="u1126_text" class="text ">
+                <p><span style="text-decoration:none;">&lt;</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1127" class="ax_default box_1">
+              <div id="u1127_div" class=""></div>
+              <div id="u1127_text" class="text ">
+                <p><span style="text-decoration:none;">&gt;=</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1128" class="ax_default box_1">
+              <div id="u1128_div" class=""></div>
+              <div id="u1128_text" class="text ">
+                <p><span style="text-decoration:none;">&lt;=</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1129" class="ax_default box_1">
+              <div id="u1129_div" class=""></div>
+              <div id="u1129_text" class="text ">
+                <p><span style="text-decoration:none;">或</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1130" class="ax_default box_1">
+              <div id="u1130_div" class=""></div>
+              <div id="u1130_text" class="text ">
+                <p><span style="text-decoration:none;">非</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1131" class="ax_default box_1">
+              <div id="u1131_div" class=""></div>
+              <div id="u1131_text" class="text ">
+                <p><span style="text-decoration:none;">&lt;&gt;</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1132" class="ax_default box_1">
+              <div id="u1132_div" class=""></div>
+              <div id="u1132_text" class="text ">
+                <p><span style="text-decoration:none;">并</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (List Box) -->
+            <div id="u1133" class="ax_default list_box">
+              <div id="u1133_div" class=""></div>
+              <select id="u1133_input" size="2" class="u1133_input">
+                <option class="u1133_input_option" value="宝安区">宝安区</option>
+                <option class="u1133_input_option" value="龙岗区">龙岗区</option>
+                <option class="u1133_input_option" value="龙华区">龙华区</option>
+                <option class="u1133_input_option" value="坪山区">坪山区</option>
+                <option class="u1133_input_option" value="大鹏新区">大鹏新区</option>
+                <option class="u1133_input_option" value="南山区">南山区</option>
+                <option class="u1133_input_option" value="罗湖区">罗湖区</option>
+                <option class="u1133_input_option" value="福田区">福田区</option>
+              </select>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1134" class="ax_default box_1">
+              <div id="u1134_div" class=""></div>
+              <div id="u1134_text" class="text ">
+                <p><span style="text-decoration:none;">选择内容展示区域</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1135" class="ax_default box_1">
+              <div id="u1135_div" class=""></div>
+              <div id="u1135_text" class="text ">
+                <p><span style="text-decoration:none;">确定</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1136" class="ax_default box_1">
+              <div id="u1136_div" class=""></div>
+              <div id="u1136_text" class="text ">
+                <p><span style="text-decoration:none;">清除</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Panel_Map_Legend (Dynamic Panel) -->
+      <div id="u1137" class="ax_default" data-label="Panel_Map_Legend">
+        <div id="u1137_state0" class="panel_state" data-label="Map_Bar_Legend_Fold" style="">
+          <div id="u1137_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (Group) -->
+            <div id="u1138" class="ax_default" data-left="0" data-top="0" data-width="47" data-height="47">
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u1139" class="ax_default box_1">
+                <div id="u1139_div" class=""></div>
+                <div id="u1139_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Shape) -->
+              <div id="u1140" class="ax_default icon">
+                <img id="u1140_img" class="img " src="images/地图浏览/u240.svg"/>
+                <div id="u1140_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u1137_state1" class="panel_state" data-label="Map_Bar_Legend_Expend" style="visibility: hidden;">
+          <div id="u1137_state1_content" class="panel_state_content">
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1141" class="ax_default box_1">
+              <img id="u1141_img" class="img " src="images/地图浏览/u241.svg"/>
+              <div id="u1141_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Shape) -->
+            <div id="u1142" class="ax_default icon">
+              <img id="u1142_img" class="img " src="images/地图浏览/u242.svg"/>
+              <div id="u1142_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1143" class="ax_default box_1">
+              <img id="u1143_img" class="img " src="images/地图浏览/u243.svg"/>
+              <div id="u1143_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1144" class="ax_default label">
+              <div id="u1144_div" class=""></div>
+              <div id="u1144_text" class="text ">
+                <p><span style="text-decoration:none;">图层</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Group) -->
+            <div id="u1145" class="ax_default" data-left="245" data-top="8" data-width="46" data-height="36">
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u1146" class="ax_default box_2">
+                <div id="u1146_div" class=""></div>
+                <div id="u1146_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Shape) -->
+              <div id="u1147" class="ax_default icon">
+                <img id="u1147_img" class="img " src="images/地图浏览/u247.svg"/>
+                <div id="u1147_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (Group) -->
+            <div id="u1148" class="ax_default" data-left="20" data-top="65" data-width="255" data-height="399">
+
+              <!-- Unnamed (Vertical Line) -->
+              <div id="u1149" class="ax_default line">
+                <img id="u1149_img" class="img " src="images/地图浏览/u249.svg"/>
+                <div id="u1149_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Vertical Line) -->
+              <div id="u1150" class="ax_default line">
+                <img id="u1150_img" class="img " src="images/地图浏览/u250.svg"/>
+                <div id="u1150_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Vertical Line) -->
+              <div id="u1151" class="ax_default line">
+                <img id="u1151_img" class="img " src="images/地图浏览/u251.svg"/>
+                <div id="u1151_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Group) -->
+              <div id="u1152" class="ax_default" data-left="20" data-top="65" data-width="255" data-height="29">
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1153" class="ax_default shape1">
+                  <div id="u1153_div" class=""></div>
+                  <div id="u1153_text" class="text ">
+                    <p><span style="text-decoration:none;">请输入内容</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Group) -->
+                <div id="u1154" class="ax_default" data-left="254" data-top="74" data-width="12.6213203435597" data-height="13.6213203435597">
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u1155" class="ax_default shape1">
+                    <div id="u1155_div" class=""></div>
+                    <div id="u1155_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Line) -->
+                  <div id="u1156" class="ax_default line">
+                    <img id="u1156_img" class="img " src="images/地图浏览/u256.svg"/>
+                    <div id="u1156_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Unnamed (Group) -->
+              <div id="u1157" class="ax_default" data-left="27" data-top="106" data-width="12" data-height="13">
+
+                <!-- Unnamed (Image) -->
+                <div id="u1158" class="ax_default image1">
+                  <img id="u1158_img" class="img " src="images/地图浏览/u258.png"/>
+                  <div id="u1158_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Unnamed (Image) -->
+              <div id="u1159" class="ax_default image1">
+                <img id="u1159_img" class="img " src="images/地图浏览/u259.png"/>
+                <div id="u1159_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Image) -->
+              <div id="u1160" class="ax_default image1">
+                <img id="u1160_img" class="img " src="images/地图浏览/u259.png"/>
+                <div id="u1160_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Image) -->
+              <div id="u1161" class="ax_default image1">
+                <img id="u1161_img" class="img " src="images/地图浏览/u259.png"/>
+                <div id="u1161_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Image) -->
+              <div id="u1162" class="ax_default image1">
+                <img id="u1162_img" class="img " src="images/地图浏览/u259.png"/>
+                <div id="u1162_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Image) -->
+              <div id="u1163" class="ax_default image1">
+                <img id="u1163_img" class="img " src="images/地图浏览/u259.png"/>
+                <div id="u1163_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Image) -->
+              <div id="u1164" class="ax_default image1">
+                <img id="u1164_img" class="img " src="images/地图浏览/u259.png"/>
+                <div id="u1164_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Checkbox) -->
+              <div id="u1165" class="ax_default checkbox1 selected">
+                <label id="u1165_input_label" for="u1165_input" style="position: absolute; left: 0px;">
+                  <img id="u1165_img" class="img " src="images/地图浏览/u265_selected.svg"/>
+                  <div id="u1165_text" class="text ">
+                    <p><span style="text-decoration:none;">雨水</span></p>
+                  </div>
+                </label>
+                <input id="u1165_input" type="checkbox" value="checkbox" checked/>
+              </div>
+
+              <!-- Unnamed (Checkbox) -->
+              <div id="u1166" class="ax_default checkbox1 selected">
+                <label id="u1166_input_label" for="u1166_input" style="position: absolute; left: 0px;">
+                  <img id="u1166_img" class="img " src="images/地图浏览/u266_selected.svg"/>
+                  <div id="u1166_text" class="text ">
+                    <p><span style="text-decoration:none;">污水</span></p>
+                  </div>
+                </label>
+                <input id="u1166_input" type="checkbox" value="checkbox" checked/>
+              </div>
+
+              <!-- Unnamed (Checkbox) -->
+              <div id="u1167" class="ax_default checkbox1 selected">
+                <label id="u1167_input_label" for="u1167_input" style="position: absolute; left: 0px;">
+                  <img id="u1167_img" class="img " src="images/地图浏览/u267_selected.svg"/>
+                  <div id="u1167_text" class="text ">
+                    <p><span style="text-decoration:none;">合流</span></p>
+                  </div>
+                </label>
+                <input id="u1167_input" type="checkbox" value="checkbox" checked/>
+              </div>
+
+              <!-- Unnamed (Group) -->
+              <div id="u1168" class="ax_default" data-left="61" data-top="215" data-width="12" data-height="13">
+
+                <!-- Unnamed (Image) -->
+                <div id="u1169" class="ax_default image1">
+                  <img id="u1169_img" class="img " src="images/地图浏览/u259.png"/>
+                  <div id="u1169_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Unnamed (Image) -->
+              <div id="u1170" class="ax_default image1">
+                <img id="u1170_img" class="img " src="images/地图浏览/u258.png"/>
+                <div id="u1170_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Checkbox) -->
+              <div id="u1171" class="ax_default checkbox1 selected">
+                <label id="u1171_input_label" for="u1171_input" style="position: absolute; left: 0px;">
+                  <img id="u1171_img" class="img " src="images/地图浏览/u271_selected.svg"/>
+                  <div id="u1171_text" class="text ">
+                    <p><span style="text-decoration:none;">排水管线</span></p>
+                  </div>
+                </label>
+                <input id="u1171_input" type="checkbox" value="checkbox" checked/>
+              </div>
+
+              <!-- Unnamed (Image) -->
+              <div id="u1172" class="ax_default image1">
+                <img id="u1172_img" class="img " src="images/地图浏览/u258.png"/>
+                <div id="u1172_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Checkbox) -->
+              <div id="u1173" class="ax_default checkbox1 selected">
+                <label id="u1173_input_label" for="u1173_input" style="position: absolute; left: 0px;">
+                  <img id="u1173_img" class="img " src="images/地图浏览/u273_selected.svg"/>
+                  <div id="u1173_text" class="text ">
+                    <p><span style="text-decoration:none;">管道</span></p>
+                  </div>
+                </label>
+                <input id="u1173_input" type="checkbox" value="checkbox" checked/>
+              </div>
+
+              <!-- Unnamed (Checkbox) -->
+              <div id="u1174" class="ax_default checkbox1 selected">
+                <label id="u1174_input_label" for="u1174_input" style="position: absolute; left: 0px;">
+                  <img id="u1174_img" class="img " src="images/地图浏览/u274_selected.svg"/>
+                  <div id="u1174_text" class="text ">
+                    <p><span style="text-decoration:none;">渠</span></p>
+                  </div>
+                </label>
+                <input id="u1174_input" type="checkbox" value="checkbox" checked/>
+              </div>
+
+              <!-- Unnamed (Group) -->
+              <div id="u1175" class="ax_default" data-left="61" data-top="243" data-width="12" data-height="13">
+
+                <!-- Unnamed (Image) -->
+                <div id="u1176" class="ax_default image1">
+                  <img id="u1176_img" class="img " src="images/地图浏览/u259.png"/>
+                  <div id="u1176_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Unnamed (Checkbox) -->
+              <div id="u1177" class="ax_default checkbox1">
+                <label id="u1177_input_label" for="u1177_input" style="position: absolute; left: 0px;">
+                  <img id="u1177_img" class="img " src="images/地图浏览/u277.svg"/>
+                  <div id="u1177_text" class="text ">
+                    <p><span style="text-decoration:none;">排水节点</span></p>
+                  </div>
+                </label>
+                <input id="u1177_input" type="checkbox" value="checkbox"/>
+              </div>
+
+              <!-- Unnamed (Checkbox) -->
+              <div id="u1178" class="ax_default checkbox1">
+                <label id="u1178_input_label" for="u1178_input" style="position: absolute; left: 0px;">
+                  <img id="u1178_img" class="img " src="images/地图浏览/u278.svg"/>
+                  <div id="u1178_text" class="text ">
+                    <p><span style="text-decoration:none;">污水处理厂</span></p>
+                  </div>
+                </label>
+                <input id="u1178_input" type="checkbox" value="checkbox"/>
+              </div>
+
+              <!-- Unnamed (Checkbox) -->
+              <div id="u1179" class="ax_default checkbox1">
+                <label id="u1179_input_label" for="u1179_input" style="position: absolute; left: 0px;">
+                  <img id="u1179_img" class="img " src="images/地图浏览/u279.svg"/>
+                  <div id="u1179_text" class="text ">
+                    <p><span style="text-decoration:none;">排水泵站</span></p>
+                  </div>
+                </label>
+                <input id="u1179_input" type="checkbox" value="checkbox"/>
+              </div>
+
+              <!-- Unnamed (Checkbox) -->
+              <div id="u1180" class="ax_default checkbox1">
+                <label id="u1180_input_label" for="u1180_input" style="position: absolute; left: 0px;">
+                  <img id="u1180_img" class="img " src="images/地图浏览/u280.svg"/>
+                  <div id="u1180_text" class="text ">
+                    <p><span style="text-decoration:none;">排水分区</span></p>
+                  </div>
+                </label>
+                <input id="u1180_input" type="checkbox" value="checkbox"/>
+              </div>
+
+              <!-- Unnamed (Checkbox) -->
+              <div id="u1181" class="ax_default checkbox1">
+                <label id="u1181_input_label" for="u1181_input" style="position: absolute; left: 0px;">
+                  <img id="u1181_img" class="img " src="images/地图浏览/u281.svg"/>
+                  <div id="u1181_text" class="text ">
+                    <p><span style="text-decoration:none;">规划管网</span></p>
+                  </div>
+                </label>
+                <input id="u1181_input" type="checkbox" value="checkbox"/>
+              </div>
+
+              <!-- Unnamed (Image) -->
+              <div id="u1182" class="ax_default image1">
+                <img id="u1182_img" class="img " src="images/地图浏览/u259.png"/>
+                <div id="u1182_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Checkbox) -->
+              <div id="u1183" class="ax_default checkbox1">
+                <label id="u1183_input_label" for="u1183_input" style="position: absolute; left: 0px;">
+                  <img id="u1183_img" class="img " src="images/地图浏览/u283.svg"/>
+                  <div id="u1183_text" class="text ">
+                    <p><span style="text-decoration:none;">监测信息点</span></p>
+                  </div>
+                </label>
+                <input id="u1183_input" type="checkbox" value="checkbox"/>
+              </div>
+
+              <!-- Unnamed (Shape) -->
+              <div id="u1184" class="ax_default shape">
+                <img id="u1184_img" class="img " src="images/地图浏览/u284.svg"/>
+                <div id="u1184_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Shape) -->
+              <div id="u1185" class="ax_default shape">
+                <img id="u1185_img" class="img " src="images/地图浏览/u285.svg"/>
+                <div id="u1185_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Shape) -->
+              <div id="u1186" class="ax_default shape">
+                <img id="u1186_img" class="img " src="images/地图浏览/u286.svg"/>
+                <div id="u1186_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bar_MapTool (Group) -->
+      <div id="u1187" class="ax_default" data-label="Bar_MapTool" selectiongroup="MapTool" data-left="415" data-top="22" data-width="371" data-height="36">
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u1188" class="ax_default box_2">
+          <div id="u1188_div" class=""></div>
+          <div id="u1188_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Map_ZoomFull (Group) -->
+        <div id="u1189" class="ax_default" data-label="Map_ZoomFull" data-left="430" data-top="29" data-width="56" data-height="21">
+
+          <!-- Unnamed (Shape) -->
+          <div id="u1190" class="ax_default icon" selectiongroup="MapTool">
+            <img id="u1190_img" class="img " src="images/地图浏览/u214.svg"/>
+            <div id="u1190_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1191" class="ax_default label" selectiongroup="MapTool">
+            <div id="u1191_div" class=""></div>
+            <div id="u1191_text" class="text ">
+              <p><span style="text-decoration:none;">全图</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Map_ZoomIn (Group) -->
+        <div id="u1192" class="ax_default" data-label="Map_ZoomIn" data-left="500" data-top="29" data-width="54" data-height="21">
+
+          <!-- Unnamed (Shape) -->
+          <div id="u1193" class="ax_default icon" selectiongroup="MapTool">
+            <img id="u1193_img" class="img " src="images/地图浏览/u217.svg"/>
+            <div id="u1193_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1194" class="ax_default label" selectiongroup="MapTool">
+            <div id="u1194_div" class=""></div>
+            <div id="u1194_text" class="text ">
+              <p><span style="text-decoration:none;">放大</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Map_ZoomOut (Group) -->
+        <div id="u1195" class="ax_default" data-label="Map_ZoomOut" data-left="570" data-top="29" data-width="53" data-height="21">
+
+          <!-- Unnamed (Shape) -->
+          <div id="u1196" class="ax_default icon" selectiongroup="MapTool">
+            <img id="u1196_img" class="img " src="images/地图浏览/u220.svg"/>
+            <div id="u1196_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1197" class="ax_default label" selectiongroup="MapTool">
+            <div id="u1197_div" class=""></div>
+            <div id="u1197_text" class="text ">
+              <p><span style="text-decoration:none;">缩小</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Map_Location (Group) -->
+        <div id="u1198" class="ax_default" data-label="Map_Location" data-left="639" data-top="28" data-width="53" data-height="24">
+
+          <!-- Unnamed (Shape) -->
+          <div id="u1199" class="ax_default icon" selectiongroup="MapTool">
+            <img id="u1199_img" class="img " src="images/地图浏览/u223.svg"/>
+            <div id="u1199_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1200" class="ax_default label" selectiongroup="MapTool">
+            <div id="u1200_div" class=""></div>
+            <div id="u1200_text" class="text ">
+              <p><span style="text-decoration:none;">定位</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Map_ToolBox (Group) -->
+        <div id="u1201" class="ax_default" data-label="Map_ToolBox" data-left="704" data-top="29" data-width="70" data-height="21">
+
+          <!-- Panel_Map_ToolBox (Group) -->
+          <div id="u1202" class="ax_default ax_default_hidden" data-label="Panel_Map_ToolBox" style="display:none; visibility: hidden" data-left="696" data-top="60" data-width="90" data-height="73">
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1203" class="ax_default box_2">
+              <div id="u1203_div" class=""></div>
+              <div id="u1203_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Group) -->
+            <div id="u1204" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u1205" class="ax_default label" selectiongroup="MapTool">
+                <div id="u1205_div" class=""></div>
+                <div id="u1205_text" class="text ">
+                  <p><span style="text-decoration:none;">测距</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Image) -->
+              <div id="u1206" class="ax_default image">
+                <img id="u1206_img" class="img " src="images/地图浏览/u230.png"/>
+                <div id="u1206_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (Group) -->
+            <div id="u1207" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- Unnamed (Image) -->
+              <div id="u1208" class="ax_default image">
+                <img id="u1208_img" class="img " src="images/地图浏览/u232.png"/>
+                <div id="u1208_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u1209" class="ax_default label" selectiongroup="MapTool">
+                <div id="u1209_div" class=""></div>
+                <div id="u1209_text" class="text ">
+                  <p><span style="text-decoration:none;">面积</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unnamed (Group) -->
+          <div id="u1210" class="ax_default" data-left="704" data-top="29" data-width="70" data-height="21">
+
+            <!-- Unnamed (Shape) -->
+            <div id="u1211" class="ax_default icon" selectiongroup="MapTool">
+              <img id="u1211_img" class="img " src="images/地图浏览/u235.svg"/>
+              <div id="u1211_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1212" class="ax_default label" selectiongroup="MapTool">
+              <div id="u1212_div" class=""></div>
+              <div id="u1212_text" class="text ">
+                <p><span style="text-decoration:none;">工具箱</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="resources/scripts/axure/ios.js"></script>
+  </body>
+</html>
